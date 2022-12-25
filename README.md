@@ -41,7 +41,7 @@ To deploy a model on AWS which predicts whether the customer is going to churn i
 </p>
 
 ## 1.  Create Flask Application
--  Save all the custom transformer classes – We have created transformer classes for **categorical encoding, adding features and custom scaler**. To do all the transformation of the test dataset we need to save these classes. It is saved under ML_Pipiline folder. https://github.com/AkashSDE/ChurnPrediction/tree/main/FlaskApplication/src/ML_Pipeline
+-  Save all the custom transformer classes – We have created transformer classes for **categorical encoding, adding features and custom scaler**. To do all the transformation of the test dataset we need to save these classes. It is saved under ML_Pipiline folder. <https://github.com/AkashSDE/ChurnPrediction/tree/main/FlaskApplication/src/ML_Pipeline>
 -  Run engine.py https://github.com/AkashSDE/ChurnPrediction/blob/main/FlaskApplication/src/Engine.py file which will take the training dataset and train the best model with best configuration. It will the save the model in the output folder https://github.com/AkashSDE/ChurnPrediction/tree/main/FlaskApplication/output
 -  Create app.py https://github.com/AkashSDE/ChurnPrediction/blob/main/FlaskApplication/src/app.py file which is the flask application with two routes /health-status and /churn-prediction. Exposed port is 5000.
 

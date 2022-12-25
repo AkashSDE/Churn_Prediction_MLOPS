@@ -199,7 +199,7 @@ it will ask for username and password which you can get from csv file which is d
 
     We will use this testbranch to deploy and create pipeline
 
-    <p align="center">
+<p align="center">
 <kbd><img src="media/1740d91c22e5f2ae28c01fee550caabe.png"/></kbd>
 </p>
 
@@ -245,13 +245,13 @@ it will ask for username and password which you can get from csv file which is d
 </p>
 
 
-    Click on create build project
+Click on create build project
 
 -  Create buildspec.yaml file
 
-    This yaml file contains steps to be done for building the docker image and then pushing the docker image to ecr repository
+This yaml file contains steps to be done for building the docker image and then pushing the docker image to ecr repository
 
-    <https://github.com/AkashSDE/ChurnPrediction/blob/main/buildspec.yaml>
+<https://github.com/AkashSDE/ChurnPrediction/blob/main/buildspec.yaml>
 
 <p align="center">
 <kbd><img src="media/89b093395d6c36441c39bd0a25bc50e3.png"/></kbd>
@@ -355,13 +355,13 @@ Click on create
 
 ## 8.  ECS service creation
 
-    Deploy Task definition into cluster
+Deploy Task definition into cluster
 
-    Create services which allow us to attach load balancer to container and we can access container client using load balancer.
+Create services which allow us to attach load balancer to container and we can access container client using load balancer.
 
-    We can create as many tasks as possible which is contains a container
+We can create as many tasks as possible which is contains a container
 
-    First, we need to create load balancer then we can create Services in ECS
+First, we need to create load balancer then we can create Services in ECS
 
 ## 9.  Create a Load balancer
 -   Create security group

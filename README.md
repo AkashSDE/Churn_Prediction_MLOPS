@@ -65,56 +65,57 @@ To deploy a model on AWS which predicts whether the customer is going to churn i
 <kbd><img src="media/2b4d7921b74dd55517f79f00c8e82673.png"/></kbd>
 </p>
 
+<p>
+Json data
 
-    Json data
+{"data":[{"Surname": "Hargrave",
 
-    {"data":[{"Surname": "Hargrave",
+"CreditScore": 619,
 
-    "CreditScore": 619,
+"Geography": "France",
 
-    "Geography": "France",
+"Gender": "Female",
 
-    "Gender": "Female",
+"Age": 42,
 
-    "Age": 42,
+"Tenure": 2,
 
-    "Tenure": 2,
+"Balance": 0.0,
 
-    "Balance": 0.0,
+"NumOfProducts": 1,
 
-    "NumOfProducts": 1,
+"HasCrCard": 1,
 
-    "HasCrCard": 1,
+"IsActiveMember": 1,
 
-    "IsActiveMember": 1,
+"EstimatedSalary": 101348.88},
 
-    "EstimatedSalary": 101348.88},
+{"Surname": "Onio",
 
-    {"Surname": "Onio",
+"CreditScore": 100,
 
-    "CreditScore": 100,
+"Geography": "Spain",
 
-    "Geography": "Spain",
+"Gender": "Female",
 
-    "Gender": "Female",
+"Age": 43,
 
-    "Age": 43,
+"Tenure": 2,
 
-    "Tenure": 2,
+"Balance": 1210.86,
 
-    "Balance": 1210.86,
+"NumOfProducts": 1,
 
-    "NumOfProducts": 1,
+"HasCrCard": 1,
 
-    "HasCrCard": 1,
+"IsActiveMember": 1,
 
-    "IsActiveMember": 1,
+"EstimatedSalary": 79084.58}
 
-    "EstimatedSalary": 79084.58}
+]
 
-    ]
-
-    }
+}
+</p>
 
 ## 2.  **Dockerize** the Flask application – Test before deploying to AWS
 -  Create the list of libraries along with the version and save it as requirement.txt\<https://github.com/AkashSDE/ChurnPrediction/blob/main/FlaskApplication/requirements.txt\>

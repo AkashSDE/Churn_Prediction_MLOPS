@@ -3,6 +3,7 @@
 ## **Objective**
 
 To deploy a model on AWS which predicts whether the customer is going to churn in the near future or not.
+Check [here](https://akashsde.github.io/ChurnPrediction/) to understand how the ML model is created.
 
 ## **Tech Stack**
 

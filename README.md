@@ -117,8 +117,8 @@ Json data
 }
 </p>
 
-## 2.  **Dockerize** the Flask application – Test before deploying to AWS
--  Create the list of libraries along with the version and save it as requirement.txt\<https://github.com/AkashSDE/ChurnPrediction/blob/main/FlaskApplication/requirements.txt\>
+## 2.  Dockerize the Flask application – Test before deploying to AWS
+-  Create the list of libraries along with the version and save it as requirement.txt <https://github.com/AkashSDE/ChurnPrediction/blob/main/FlaskApplication/requirements.txt>
 
 <p align="center">
 <kbd><img src="media/c965a411d999de9c7935bff8fadd3e7c.png"/></kbd>

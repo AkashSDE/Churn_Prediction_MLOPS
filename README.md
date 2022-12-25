@@ -46,7 +46,7 @@ To deploy a model on AWS which predicts whether the customer is going to churn i
 -  Create app.py <https://github.com/AkashSDE/ChurnPrediction/blob/main/FlaskApplication/src/app.py> file which is the flask application with two routes /health-status and /churn-prediction. Exposed port is 5000.
 
 <p align="center">
-<kbd><img src="media/8899c3b27880f0080179ebcd9e48df9b.png"><kbd>
+<kbd><img src="media/8899c3b27880f0080179ebcd9e48df9b.png"></kbd>
 </p>
 
 

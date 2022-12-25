@@ -151,7 +151,7 @@ Json data
 -  Create Code commit repository with name – **churn_prediction**
 
 <p align="center">
-<kbd><img src="(media/8499e430457f080810e04fbe1fc68b3a.png"/></kbd>
+<kbd><img src="media/8499e430457f080810e04fbe1fc68b3a.png"/></kbd>
 </p>
 
 <p align="center">
@@ -161,32 +161,33 @@ Json data
 
 -  The repository we created is a private repository. To connect with this repository, we need to create credentials.
 
-    Go to IAM service click user select user select Security Credentials tab
+Go to IAM service click user select user select Security Credentials tab
 
-    Scroll down to HTTPS Git credentials for AWS CodeCommit and click on generate credentials
+Scroll down to HTTPS Git credentials for AWS CodeCommit and click on generate credentials
 
-    <p align="center">
+<p align="center">
 <kbd><img src="media/ff7b51fa2ebc89afcfa880530c83ef92.png"/></kbd>
 </p>
 
-    Create new credentials and download the credentials – get username and password in the csv file
+Create new credentials and download the credentials – get username and password in the csv file
 
 -  Clone the repository in local
 
-    Copy the HTTPS URL
-    <p align="center">
+Copy the HTTPS URL
+
+<p align="center">
 <kbd><img src="media/dfd4b60eecaf938405cec2ef4501f7c9.png"/></kbd>
 </p>
 
 
-    In the local CLI run the below command
+In the local CLI run the below command
 
-    \$ *git clone \<URL\>*
+\$ *git clone \<URL\>*
 
-    it will ask for username and password which you can get from csv file which is downloaded in step b.
+it will ask for username and password which you can get from csv file which is downloaded in step b.
 
 -  Copy all the files and folder (exclude img folder and Readme file) from the below url to your local repository folder
-    <p align="center">
+<p align="center">
 <kbd><img src="media/2d602e76c611135a4bf6e98f97a48db5.png"/></kbd>
 </p>
 

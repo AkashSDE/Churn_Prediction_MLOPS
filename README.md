@@ -49,11 +49,10 @@ To deploy a model on AWS which predicts whether the customer is going to churn i
 <kbd><img src="media/8899c3b27880f0080179ebcd9e48df9b.png"><kbd>
 </p>
 
-<p>
+
 - <b>predictor.py</b> – load the saved model, calculate the prediction, and return the results
 
 <https://github.com/AkashSDE/ChurnPrediction/blob/main/FlaskApplication/src/predictor.py>
-</p>
 
 -  Run the flask application and verify the two routes using postman.
 
@@ -116,8 +115,6 @@ Json data
 
 }
 </p>
-
-## 1.  Create Flask Application
 
 ## 2.  Dockerize the Flask application – Test before deploying to AWS
 -  Create the list of libraries along with the version and save it as requirement.txt <https://github.com/AkashSDE/ChurnPrediction/blob/main/FlaskApplication/requirements.txt>

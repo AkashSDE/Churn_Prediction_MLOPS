@@ -42,8 +42,8 @@ To deploy a model on AWS which predicts whether the customer is going to churn i
 
 ## 1.  Create Flask Application
 -  Save all the custom transformer classes – We have created transformer classes for **categorical encoding, adding features and custom scaler**. To do all the transformation of the test dataset we need to save these classes. It is saved under ML_Pipiline folder. <https://github.com/AkashSDE/ChurnPrediction/tree/main/FlaskApplication/src/ML_Pipeline>
--  Run engine.py https://github.com/AkashSDE/ChurnPrediction/blob/main/FlaskApplication/src/Engine.py file which will take the training dataset and train the best model with best configuration. It will the save the model in the output folder https://github.com/AkashSDE/ChurnPrediction/tree/main/FlaskApplication/output
--  Create app.py https://github.com/AkashSDE/ChurnPrediction/blob/main/FlaskApplication/src/app.py file which is the flask application with two routes /health-status and /churn-prediction. Exposed port is 5000.
+-  Run engine.py <https://github.com/AkashSDE/ChurnPrediction/blob/main/FlaskApplication/src/Engine.py> file which will take the training dataset and train the best model with best configuration. It will the save the model in the output folder <https://github.com/AkashSDE/ChurnPrediction/tree/main/FlaskApplication/output>
+-  Create app.py <https://github.com/AkashSDE/ChurnPrediction/blob/main/FlaskApplication/src/app.py> file which is the flask application with two routes /health-status and /churn-prediction. Exposed port is 5000.
 
 <p align="center">
 <kbd><img src="media/8899c3b27880f0080179ebcd9e48df9b.png"><kbd>
@@ -52,7 +52,7 @@ To deploy a model on AWS which predicts whether the customer is going to churn i
 
 - **predictor.py** – load the saved model, calculate the prediction, and return the results
 
-   https://github.com/AkashSDE/ChurnPrediction/blob/main/FlaskApplication/src/predictor.py
+   <https://github.com/AkashSDE/ChurnPrediction/blob/main/FlaskApplication/src/predictor.py>
 
 -  Run the flask application and verify the two routes using postman.
 
@@ -114,7 +114,7 @@ To deploy a model on AWS which predicts whether the customer is going to churn i
     ]
 
     }
-
+<br>
 ## 2.  **Dockerize** the Flask application – Test before deploying to AWS
 -  Create the list of libraries along with the version and save it as requirement.txt\<https://github.com/AkashSDE/ChurnPrediction/blob/main/FlaskApplication/requirements.txt\>
 
@@ -122,14 +122,14 @@ To deploy a model on AWS which predicts whether the customer is going to churn i
 <kbd><img src="media/c965a411d999de9c7935bff8fadd3e7c.png"/></kbd>
 </p>
 
--  Create gunicorn.sh\<https://github.com/AkashSDE/ChurnPrediction/blob/main/FlaskApplication/src/gunicorn.sh\> file to configure the flask application with WSGI sever as Flask application should not be run directly in the production server
+-  Create gunicorn.sh <https://github.com/AkashSDE/ChurnPrediction/blob/main/FlaskApplication/src/gunicorn.sh> file to configure the flask application with WSGI sever as Flask application should not be run directly in the production server
 
 <p align="center">
 <kbd><img src="media/586346d95116439935ff31addb1d815f.png"/></kbd>
 </p>
 
 
--  Create docker file - https://github.com/AkashSDE/ChurnPrediction/blob/main/Dockerfile
+-  Create docker file - <https://github.com/AkashSDE/ChurnPrediction/blob/main/Dockerfile>
 
 <p align="center">
 <kbd><img src="media/339dd096e3818edfa8904e445c34c00d.png"/></kbd>
@@ -190,7 +190,7 @@ To deploy a model on AWS which predicts whether the customer is going to churn i
 </p>
 
 
-[**https://github.com/AkashSDE/ChurnPrediction**](https://github.com/AkashSDE/ChurnPrediction)
+[**https://github.com/AkashSDE/ChurnPrediction**](<https://github.com/AkashSDE/ChurnPrediction>)
 
 -  Do git commit and git push to the aws code repository
 -  Create testbranch and push all the changes to test branch as well
@@ -530,7 +530,7 @@ Click on create deployment
    
 Appspec editor apspec yaml we need to provide the task definition details so that aws knows where to deploy the deployment groups
 
-Find appspec.yaml github url
+Find appspec.yaml <https://github.com/AkashSDE/ChurnPrediction/blob/main/appspec.yaml>
 
 Copy the task definition arn from the json details of task definition
 <p align="center">
